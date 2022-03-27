@@ -8,14 +8,10 @@ int setbit(int n){
     count++;
     n=n>>1;
     }
-    return count;
-
-
-}
+    return count; }
 int main (){
  int n,m;
  cin>>n>>m;
  cout<<"Total set bit is "<<setbit(n)+setbit(m);
-  
  return 0;
 }
