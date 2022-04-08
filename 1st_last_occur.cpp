@@ -16,7 +16,7 @@ int firstoccur(int a[], int n, int key)
         {
             e = mid - 1;
         }
-        else if (a[mid] < key)
+        else  //(a[mid] < key)
         {
             s = mid + 1;
         }
